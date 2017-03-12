@@ -4,9 +4,7 @@ apply plugin: 'eclipse'
 
 
 repositories {
-    maven {
-        url 'https://artifactory.global.dish.com/artifactory/repo'
-    }
+    jcenter()
 }
 
 dependencies {
